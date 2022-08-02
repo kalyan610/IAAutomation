@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ia-automation-version-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iaAutomationVersion2/IaAutomationVersion2WebPart.js",
+          "manifest": "./src/webparts/iaAutomationVersion2/IaAutomationVersion2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IaAutomationVersion2WebPartStrings": "lib/webparts/iaAutomationVersion2/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
